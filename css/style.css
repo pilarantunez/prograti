@@ -1,3 +1,107 @@
+/*/ Cambios para toda la pagina/*/
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.subpag{
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+ul, ol {
+    list-style: none;
+    
+}
+/*/ HEADER /*/
+
+.logo{
+    width: 250px;
+    background-image: url("../img/background.jpg");
+
+    
+}
+.header{
+    width: 100%;
+    padding: 16px 65px;
+    background-color: rgb(153, 157, 161);
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    background-image: url("../img/probarbackheader.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+
+
+    
+    
+
+}
+
+
+.subpag{
+    font-weight: bold;
+    color: black;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+
+}
+
+
+/*/ MAIN /*/
+
+.articulos-padre{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/*/ titulo de productos de mujer /*/
+
+.product-mujer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    font-weight: 300;
+    flex-wrap: wrap;
+    
+}
+/*/ los 3 sections de todos los articulos /*/
+
+.home-sections{
+
+
+}
+
+/*/ARTICULOS CAJA PADRE/*/
+.articulos-padre{
+    width: 100vw;
+    height: fit-content;
+    background-image: url(../img/background.jpeg);
+    background-attachment: scroll;
+    flex-wrap: wrap;
+
+}
+
+
+
+    
+
+
+
+
+/*/LOG IN /*/
+
 .login{
     font-size: large;
     font-family: "Reddit Mono", monospace;
@@ -6,6 +110,7 @@
     text-align: center;
 }
 
+/*/PRODUCT DETAILS /*/
 
 .productos{
     font-family: "Reddit Mono", monospace;
