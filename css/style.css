@@ -5,21 +5,34 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-}
-.subpag{
-    text-decoration: none;
-    flex-wrap: wrap;
-}
-ul, ol {
-    list-style: none;
+    background-color: rgb(131, 129, 129);
     
 }
+.subpag{
+
+    position:static;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 16px 65px;
+    background-color: rgba(0,0,0,0.158);
+    height: fit-content;
+    
+}
+.subpag ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+
+
 /*/ HEADER /*/
 
 .logo{
     width: 250px;
     background-image: url("../img/background.jpg");
-
     
 }
 .header{
@@ -30,17 +43,10 @@ ul, ol {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: fit-content;
-    background-image: url("../img/probarbackheader.jpeg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-  
-
-
+    height: fit-content;   
     
+   
     
-
 }
 
 
@@ -63,33 +69,92 @@ ul, ol {
     height: fit-content;
     padding-top: 15px;
     padding-bottom: 15px;
+    background-color: rgb(131, 129, 129);
 }
-/*/ titulo de productos de mujer /*/
+
+/*/ productos/*/
 
 .product-mujer {
+    background-color: rgb(97, 102, 102);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 40%;
     font-weight: 300;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
+    font-size: 30px;
+}
+
+.product-hombre{
+    background-color: rgb(97, 102, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    font-weight: 300;
+    flex-wrap: wrap;  
+    font-size: 25px;
+}
+.product-accesorios{
+    background-color: rgb(97, 102, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    font-weight: 300;
+    flex-wrap: wrap;  
+    font-size: 25px;
+
+}
+
+/*/ titulos de los productos index/*/
+.titulo-producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    font-weight: 300;
+    flex-wrap: wrap; 
+    font-size: 25px; 
 }
 /*/ los 3 sections de todos los articulos /*/
 
 .home-sections{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    padding: 20px;
+    flex-direction: column;
+}
 
 
+.producto{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    padding: 20px;
+    width:30%;
+    margin: 10px;
+    padding: 20px ;
+    background-color: white;
+    border-radius: 5px;
 }
 
 /*/ARTICULOS CAJA PADRE/*/
 .articulos-padre{
+    
     width: 100vw;
     height: fit-content;
-    background-image: url(../img/background.jpeg);
     background-attachment: scroll;
     flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    
+
 
 }
 
