@@ -1,6 +1,5 @@
 /*/ Cambios para toda la pagina/*/
 *{
-    font-size: 20px;
     color: black;
     font-family: "Reddit Mono", monospace;;
     margin: 0;
@@ -11,12 +10,8 @@
     text-transform: capitalize;
 }
 
-h2{
-    font-family: "Reddit Mono", monospace;
-    text-transform: capitalize;
-    font-size: 40px;
-}
-.subpag{
+
+.lista{
     font-family: "Reddit Mono", monospace;
     position:static;
     display: flex;
@@ -28,11 +23,6 @@ h2{
     height: fit-content;
     
 }
-.subpag ul{
-    display: flex;
-    list-style: none;
-    gap: 40px;
-}
 
 
 
@@ -40,7 +30,7 @@ h2{
 
 .logo{
     width: 250px;
-    background-image: url("../img/background.jpg");
+    background-color: rgb(110, 179, 110);
     
 }
 .header{
@@ -52,9 +42,16 @@ h2{
     justify-content: space-between;
     align-items: center;
     height: fit-content;   
+
     
-   
-    
+}
+/*/Main/*/
+.producto{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 30%;
+    object-fit: contain;
 }
 
 /*/ FOOTER /*/
@@ -68,7 +65,7 @@ h2{
 
 
 
-.subpag{
+.lista{
     font-weight: bold;
     color: black;
     display: flex;
@@ -90,93 +87,33 @@ h2{
     background-color: rgb(131, 129, 129);
     flex-direction: row;
     justify-content: space-between;
+   
 }
+.producto{
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 30%;
+    object-fit: contain;
+}
+
+
+
 
 /*/ productos/*/
 
-.product-mujer {
-    background-color: rgb(97, 102, 102);
+h2 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 40%;
     font-weight: 300;
     flex-wrap: wrap;  
     font-size: 30px;
-}
-
-.product-hombre{
-    background-color: rgb(97, 102, 102);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 40%;
-    font-weight: 300;
-    flex-wrap: wrap;  
-    font-size: 25px;
-}
-.product-accesorios{
-    background-color: rgb(97, 102, 102);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 40%;
-    font-weight: 300;
-    flex-wrap: wrap;  
-    font-size: 25px;
-
-}
-
-/*/ titulos de los productos index/*/
-.titulo-producto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 40%;
-    font-weight: 300;
-    flex-wrap: wrap; 
-    font-size: 25px; 
-}
-/*/ los 3 sections de todos los articulos /*/
-/*/
-.home-sections{
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between;
-    flex-direction: row;
-    width: auto;
+    font-family: "Reddit Mono", monospace;
+    text-transform: capitalize;
+        
 }
 
 
-.producto{
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-around;
-    padding: 20px;
-    width:auto;
-    margin: 10px;
-    padding: 20px ;
-    background-color: white;
-    border-radius: 5px;
-}
-/*/
-
-/*/ARTICULOS CAJA PADRE/*/
-.articulos-padre{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100vw;
-    object-fit: contain;
-    background-attachment: scroll;
-
-}
 
 /*/ PRODUCT DETAIL /*/
 .buzo-detail{
@@ -215,3 +152,38 @@ h2{
     text-transform: capitalize;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+/*/PRUEBAS/*/
+
+/*/ los 3 sections de todos los articulos /*/
+/*/
+.home-sections{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    flex-direction: row;
+    width: auto;
+}
+
+
+.producto{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    padding: 20px;
+    width:auto;
+    margin: 10px;
+    padding: 20px ;
+    background-color: white;
+    border-radius: 5px;
+}
+/*/
