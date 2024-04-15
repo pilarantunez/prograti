@@ -55,11 +55,16 @@
 }
 
 /*/ FOOTER /*/
-.footnom{
+.footer{
     padding: 16px 65px;
-    background-color: rgb(94, 182, 182);
+    background-color: white;
+
+
+}
+.footnom{
     list-style: none;
     position: static;
+
 }
 
 
