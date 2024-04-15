@@ -1,6 +1,7 @@
 /*/ Cambios para toda la pagina/*/
 *{
-
+    color: black;
+    font-family: "Reddit Mono", monospace;;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,14 +10,14 @@
     
 }
 .subpag{
-
+    font-family: "Reddit Mono", monospace;
     position:static;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 16px 65px;
-    background-color: rgba(0,0,0,0.158);
+    background-color: rgba(0, 0, 0, 0.161);
     height: fit-content;
     
 }
@@ -146,15 +147,13 @@
 
 /*/ARTICULOS CAJA PADRE/*/
 .articulos-padre{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     width: 100vw;
     height: fit-content;
     background-attachment: scroll;
-    flex-wrap: wrap;
-    flex-direction: column;
-    display: flex;
-    
-
 
 }
 
@@ -168,6 +167,16 @@
 /*/LOG IN /*/
 
 .login{
+    font-size: large;
+    font-family: "Reddit Mono", monospace;
+    font-style: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/*/REGISTER /*/
+
+.register{
     font-size: large;
     font-family: "Reddit Mono", monospace;
     font-style: normal;
