@@ -1,5 +1,6 @@
 /*/ Cambios para toda la pagina/*/
 *{
+    font-size: 20px;
     color: black;
     font-family: "Reddit Mono", monospace;;
     margin: 0;
@@ -7,7 +8,13 @@
     box-sizing: border-box;
     text-decoration: none;
     background-color: rgb(131, 129, 129);
-    
+    text-transform: capitalize;
+}
+
+h2{
+    font-family: "Reddit Mono", monospace;
+    text-transform: capitalize;
+    font-size: 40px;
 }
 .subpag{
     font-family: "Reddit Mono", monospace;
@@ -50,6 +57,16 @@
     
 }
 
+/*/ FOOTER /*/
+.footnom{
+    padding: 16px 65px;
+    background-color: rgb(94, 182, 182);
+    list-style: none;
+    position: static;
+}
+
+
+
 
 .subpag{
     font-weight: bold;
@@ -71,6 +88,8 @@
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: rgb(131, 129, 129);
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /*/ productos/*/
@@ -127,9 +146,9 @@
 .home-sections{
     display: flex;
     flex-wrap: wrap; 
-    justify-content: space-around;
-    padding: 20px;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
+    width: auto;
 }
 
 
@@ -138,7 +157,7 @@
     flex-wrap: wrap; 
     justify-content: space-around;
     padding: 20px;
-    width:30%;
+    width:auto;
     margin: 10px;
     padding: 20px ;
     background-color: white;
@@ -150,18 +169,22 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 100vw;
-    height: fit-content;
+    object-fit: contain;
     background-attachment: scroll;
 
 }
 
-
-
-    
-
-
+/*/ PRODUCT DETAIL /*/
+.buzo-detail{
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 30%;
+    object-fit: contain;
+}
 
 
 /*/LOG IN /*/
