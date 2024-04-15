@@ -142,7 +142,7 @@ h2{
     font-size: 25px; 
 }
 /*/ los 3 sections de todos los articulos /*/
-
+/*/
 .home-sections{
     display: flex;
     flex-wrap: wrap; 
@@ -163,6 +163,7 @@ h2{
     background-color: white;
     border-radius: 5px;
 }
+/*/
 
 /*/ARTICULOS CAJA PADRE/*/
 .articulos-padre{
