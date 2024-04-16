@@ -168,10 +168,64 @@ h2 {
 
 /*/PRODUCT DETAILS /*/
 
+/*/CART/*/
 
+.compras {
+    margin: 80px;
 
+}
 
+.productos2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 300px;
+    align-items: center;
+    
 
+}
+
+.infoproducto1{
+    margin: 40px;
+    max-width: 200px;
+}
+.infoproducto2{
+    margin: 100px;
+    max-width: 200px
+
+}
+
+.imgprod1{
+    width: 200px;
+}
+
+.imgprod2{
+    width: 200px;
+}
+
+.imgprod3 {
+    width: 200px;
+}
+ 
+.eliminar-button{
+    color: rgb(75, 1, 1);
+}
+
+.compra-final{
+    margin-top: 300px;
+    display: flex;
+    
+}
+
+.precio-total{
+    font-size: large;
+    
+}
+
+.comprar-button {
+    background-color: rgb(210, 138, 3);
+    font-size: large;
+
+}
 
 
 
