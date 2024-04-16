@@ -46,24 +46,39 @@
     
 }
 /*/Main/*/
-.producto{
+.producto img{
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 30%;
+    width: 80%;
     object-fit: contain;
+    
+
+}
+.home-sections{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
 }
 
 /*/ FOOTER /*/
-.footer{
-    padding: 16px 65px;
+.footer , .footernom {
+    pad: 16px 20px;
     background-color: white;
 
 
+
 }
-.footnom{
+.footnom ul{
+    padding: 20px;
     list-style: none;
     position: static;
+    background-color: white;
+
+
 
 }
 
@@ -108,13 +123,14 @@
 /*/ productos/*/
 
 h2 {
-    display: flex;
+    
     justify-content: center;
-    font-weight: 300;
+    font-weight: 30px;
     flex-wrap: wrap;  
     font-size: 30px;
     font-family: "Reddit Mono", monospace;
     text-transform: capitalize;
+    text-align: center;
         
 }
 
@@ -152,11 +168,6 @@ h2 {
 
 /*/PRODUCT DETAILS /*/
 
-.productos{
-    font-family: "Reddit Mono", monospace;
-    text-transform: capitalize;
-    text-align: center;
-}
 
 
 
