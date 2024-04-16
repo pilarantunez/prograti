@@ -21,7 +21,6 @@
     padding: 16px 65px;
     background-color: rgba(0, 0, 0, 0.161);
     height: fit-content;
-    
 }
 
 
@@ -30,11 +29,10 @@
 
 .logo{
     width: 250px;
-    background-color: rgb(110, 179, 110);
+    background-color: hsl(196, 20%, 45%);
     
 }
 .header{
-    width: 100%;
     padding: 16px 65px;
     background-color: rgb(153, 157, 161);
     position: static;
@@ -42,8 +40,7 @@
     justify-content: space-between;
     align-items: center;
     height: fit-content;   
-
-    
+    font-size: 30px;
 }
 /*/Main/*/
 .producto img{
