@@ -7,27 +7,23 @@
     box-sizing: border-box;
     text-decoration: none;
     background-color: rgb(131, 129, 129);
-    text-transform: capitalize;
+
 }
 
 
 .lista{
     font-family: "Reddit Mono", monospace;
+    text-transform: uppercase;
     position:static;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    padding: 16px 65px;
-    background-color: rgba(0, 0, 0, 0.161);
     height: fit-content;
     font-weight: bold;
     color: black;
     display: flex;
     list-style: none;
-    gap: 40px;
-
-    
+    gap: 40px;  
 }
 
 
@@ -238,27 +234,22 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
+    width: auto;
     padding: 16px 40px;
     background-color: hsl(196, 20%, 45%);
     flex-wrap: wrap;
-    height: fit-content;
 }
 .footer ul {
     display: flex;
     list-style: none;
     gap: 40px;
     flex-wrap: wrap;
-    height: fit-content;
-    background-color: hsl(196, 20%, 45%);
-    color: hsl(197, 21%, 26%);
     font-size: 20x;
 }
 
 
+
 /*/ RESPONSIVE*/
-
-
 
 
 @media(max-width:420px){
