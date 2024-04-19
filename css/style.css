@@ -320,14 +320,21 @@ h3{
 
 /*/ RESPONSIVE*/
 
-
-@media(max-width:420px){
-    .header {
+@media(max-width:720px){
+    .register, .category-mujer, .producto, .header, .footer , .footnom, .lista,  .home-sections, .articulos-padre, .producto {
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
     }
 }
 
+
+
+
+
+
+/*/
 @media(max-width:420px){
     .footer {
         flex-direction: column;
@@ -365,6 +372,7 @@ h3{
         display: flex;
     }
 }
+
 @media(max-width:420px){
     .category-mujer, .producto {
         width: 90%;
@@ -373,12 +381,6 @@ h3{
         
     }
 }
-@media(max-width:420px){
-    .register {
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        
-    }
-}
+/*/
+
 
