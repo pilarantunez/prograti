@@ -259,8 +259,15 @@ h3{
 }
 
 .titulo-cart {
-    margin: 40px;
-    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    font-weight: 30px;
+    flex-wrap: wrap;  
+    font-size: 30px;
+    font-family: "Reddit Mono", monospace;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: hsl(196, 20%, 45%);
 }
 
 /*/ RECOVER /*/
