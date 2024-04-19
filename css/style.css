@@ -61,6 +61,8 @@ h3{
     background-color: rgb(131, 129, 129);
     flex-direction: row;
     justify-content: space-between;
+    margin: 30px;
+    
    
 }
 
@@ -125,6 +127,7 @@ h3{
     text-transform: capitalize;
     text-align: center;
     background-color: hsl(196, 20%, 45%);
+    margin-top: 40px;
 }
 .titulo-producto{
     justify-content: center;
@@ -242,7 +245,7 @@ h3{
 
 .compra-final{
     margin-top: 300px;
-    
+    margin-bottom: 20px;;
     text-align: center;
     
 }
@@ -255,6 +258,7 @@ h3{
 .comprar-button {
     background-color: rgb(210, 138, 3);
     font-size: large;
+
 
 }
 
