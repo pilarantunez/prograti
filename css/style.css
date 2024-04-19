@@ -208,7 +208,8 @@
 
 .compra-final{
     margin-top: 300px;
-    display: flex;
+    
+    text-align: center;
     
 }
 
@@ -227,6 +228,17 @@
     margin: 40px;
     text-decoration: underline;
 }
+
+/*/ RECOVER /*/
+
+.pass-main{
+    text-align: center;
+}
+
+.email {
+    color: brown;
+}
+
 
 /*/ FOOTER /*/
 .footer{
