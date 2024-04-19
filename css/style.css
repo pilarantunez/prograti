@@ -61,6 +61,8 @@ h3{
     background-color: rgb(131, 129, 129);
     flex-direction: row;
     justify-content: space-between;
+    margin: 30px;
+    
    
 }
 
@@ -81,6 +83,7 @@ h3{
     justify-content: flex-start;
     width: 80%;
     object-fit: contain;
+   
     
 
 }
@@ -108,6 +111,8 @@ h3{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 30px;
+    
 }
 
 
@@ -125,6 +130,7 @@ h3{
     text-transform: capitalize;
     text-align: center;
     background-color: hsl(196, 20%, 45%);
+    margin-top: 40px;
 }
 .titulo-producto{
     justify-content: center;
@@ -242,7 +248,7 @@ h3{
 
 .compra-final{
     margin-top: 300px;
-    
+    margin-bottom: 20px;;
     text-align: center;
     
 }
@@ -256,11 +262,19 @@ h3{
     background-color: rgb(210, 138, 3);
     font-size: large;
 
+
 }
 
 .titulo-cart {
-    margin: 40px;
-    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    font-weight: 30px;
+    flex-wrap: wrap;  
+    font-size: 30px;
+    font-family: "Reddit Mono", monospace;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: hsl(196, 20%, 45%);
 }
 
 /*/ RECOVER /*/
