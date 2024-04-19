@@ -321,7 +321,7 @@ h3{
 /*/ RESPONSIVE*/
 
 @media(max-width:720px){
-    .register, .category-mujer, .producto, .header, .footer , .footnom, .lista,  .home-sections, .articulos-padre, .producto {
+    .register, .category-mujer, .producto, .header, .footer , .footnom, .lista,  .home-sections, .articulos-padre, .producto, .loging {
         flex-direction: column;
         justify-content: center;
         width: 100%;
