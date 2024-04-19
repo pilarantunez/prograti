@@ -26,7 +26,9 @@
     gap: 40px;  
 }
 
-
+h3{
+    
+}
 
 /*/ HEADER /*/
 
@@ -141,6 +143,26 @@
     object-fit: contain;
 }
 
+.contendor-producto1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 15%;
+    height: 100%;
+    padding: 1%;
+}
+
+.contendor-producto2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    order: 3;
+}
+
+.buzo-bakery{
+    text-align: left;
+    line-height: 140%;
+}
 
 /*/LOG IN /*/
 
@@ -150,6 +172,17 @@
     font-style: normal;
     text-transform: capitalize;
     text-align: center;
+    line-height: 200%;
+}
+
+.ingresar{
+    background-color: rgb(31, 90, 31);
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 /*/REGISTER /*/
@@ -160,6 +193,7 @@
     font-style: normal;
     text-transform: capitalize;
     text-align: center;
+    line-height: 200%;
 }
 
 
@@ -233,6 +267,7 @@
 
 .pass-main{
     text-align: center;
+    line-height: 200%;
 }
 
 .email {
@@ -259,6 +294,28 @@
     font-size: 20x;
 }
 
+
+/*/ BUTTONS /*/
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-ver{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
 
 
 /*/ RESPONSIVE*/
