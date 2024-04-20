@@ -333,7 +333,7 @@
 
 
 /*/ RESPONSIVE*/
-
+/*/
 
 @media(max-width:420px){
     .header {
@@ -387,8 +387,10 @@
         
     }
 }
-@media(max-width:420px){
-    .register {
+/*/
+@media(max-width:720px){
+    .register, .category-mujer, .home-sections, .articulos-padre, .producto, .footer, .footnom, .header, .lista  {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         width: 100%;
