@@ -72,7 +72,8 @@
     flex-wrap: wrap;
     width: 30%;
     object-fit: contain;
-    flex: 0 0 calc(33.333%-20px);
+    width: 30%;
+    margin-right: 3%; 
     margin: 10px;
     text-align: center;
     margin-top: 10px;
@@ -143,7 +144,11 @@
     background-color: hsl(196, 20%, 45%);
     margin-top: 40px;
 }
+<<<<<<< HEAD
 /*/
+=======
+
+>>>>>>> 1548129 (correcciones)
 .titulo-producto{
     justify-content: center;
     font-weight: 25px; 
@@ -152,6 +157,7 @@
     text-transform: capitalize;
     text-align: center;
 }
+
 /*/ PRODUCT DETAIL /*/
 .buzo-detail{
     flex-direction: row;
