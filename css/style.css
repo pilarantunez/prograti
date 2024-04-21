@@ -7,10 +7,8 @@
     box-sizing: border-box;
     text-decoration: none;
     background-color: rgb(131, 129, 129);
-
 }
-
-
+ 
 .lista{
     font-family: "Reddit Mono", monospace;
     text-transform: uppercase;
@@ -58,12 +56,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 30px;
-    flex-wrap: wrap;
-
-
-    
-    
-   
+    flex-wrap: wrap;    
 }
 
 .producto{
@@ -109,6 +102,7 @@
 }
 /*/Categorias/*/
 .category{
+    margin: 16px;
     display: flex;
     justify-content: center;
     font-weight: 30px;
@@ -127,7 +121,10 @@
     
 }
 
-
+.buzo-bakery{
+    text-transform: capitalize;
+    margin: 10px;
+}
 
 
 /*/ titulo productos index/*/
@@ -164,6 +161,7 @@
     flex-wrap: wrap;
     width: 30%;
     object-fit: contain;
+    margin: 10px;
 }
 
 .contendor-producto1{
@@ -190,6 +188,7 @@
 /*/LOG IN /*/
 
 .login{
+    margin: 10px;
     font-size: large;
     font-family: "Reddit Mono", monospace;
     font-style: normal;
@@ -208,9 +207,17 @@
     display: inline-block;
 }
 
+.link{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(27, 27, 124);
+    text-decoration: underline;
+}
+
 /*/REGISTER /*/
 
 .register{
+    margin: 10px;
     font-size: large;
     font-family: "Reddit Mono", monospace;
     font-style: normal;
@@ -302,6 +309,7 @@
 
 /*/ RECOVER /*/
 
+
 .pass-main{
     text-align: center;
     line-height: 200%;
@@ -342,6 +350,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    margin: 10px;
 }
 
 .button-ver{
