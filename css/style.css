@@ -311,6 +311,7 @@
 .pass-main{
     text-align: center;
     line-height: 200%;
+    margin: 40px;
 }
 
 .email {
@@ -320,6 +321,7 @@
 
 /*/ FOOTER /*/
 .footer{
+    
     position:static;
     display: flex;
     justify-content: space-evenly;
@@ -328,6 +330,7 @@
     padding: 16px 40px;
     background-color: hsl(196, 20%, 45%);
     flex-wrap: wrap;
+
 }
 .footer ul {
     display: flex;
