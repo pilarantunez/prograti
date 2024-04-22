@@ -422,12 +422,12 @@
 }
 /*/
 @media(max-width:720px){
-    .register, .category-mujer, .home-sections, .articulos-padre, .producto, .footer, .footnom, .header, .lista, .ingresar, .login, .button {
-        display: flex;
+    .register, .header, .category, .category-mujer, .home-sections, .articulos-padre, .producto, .footer, .footnom, .header, .lista, .button, .login, .button-ver {
         flex-direction: column;
         justify-content: center;
-
-
+        margin: 10px;
+        width: 95%;
+        text-align: center;
     }
 }
 
