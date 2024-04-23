@@ -9,6 +9,14 @@
     background-color: rgb(131, 129, 129);
 }
  
+p{
+    background-color: white;
+}
+
+h3{
+    background-color: white;
+}
+
 .lista{
     font-family: "Reddit Mono", monospace;
     text-transform: uppercase;
@@ -121,10 +129,21 @@
     
 }
 
+p.buzo-bakery{
+    background-color: rgb(131, 129, 129);
+}
+
+h3.buzo-bakery{
+    background-color: rgb(131, 129, 129);;
+}
+
+
 .buzo-bakery{
     text-transform: capitalize;
     margin: 10px;
 }
+
+
 
 
 /*/ titulo productos index/*/
@@ -271,24 +290,24 @@
  
 .eliminar-button{
     color: rgb(75, 1, 1);
+
 }
 
 .compra-final{
     margin-top: 300px;
     margin-bottom: 20px;;
     text-align: center;
-    
+
 }
 
 .precio-total{
     font-size: large;
-    
+
 }
 
 .comprar-button {
     background-color: rgb(210, 138, 3);
     font-size: large;
-
 
 }
 
@@ -365,6 +384,7 @@
 }
 
 
+
 /*/ RESPONSIVE*/
 /*/
 
@@ -422,7 +442,7 @@
 }
 /*/
 @media(max-width:720px){
-    .register, .header, .category, .category-mujer, .home-sections, .articulos-padre, .producto, .footer, .footnom, .header, .lista, .button, .login, .button-ver {
+    .register, .header, .category, .category-mujer, .home-sections, .articulos-padre, .producto, .footer, .footnom, .header, .lista, .button, .login, .button-ver, .lista {
         flex-direction: column;
         justify-content: center;
         margin: 10px;
