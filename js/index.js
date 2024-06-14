@@ -20,7 +20,7 @@ fetch(urlJoyas)
                         <h3> Nombre:${info[index].title}</h3>
                         <img src=${info[index].image} alt=${info[index].id}>
                         <p>Descripcion: ${info[index].description}</p>
-                        <h3>Precio: ${info[index].price}</h3>
+                        <h3>Precio:  USD${info[index].price}</h3>
                         <a href="./producto.html?id=${info[index]}" class="button-ver"> Ver mas</a>
                     </article>`
     
