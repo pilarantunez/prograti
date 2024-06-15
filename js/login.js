@@ -1,32 +1,30 @@
-let todotrue=true
+//a
 let formulario = document.querySelector('form');
 let mail= document.querySelector('.email');
 let contrasenia= document.querySelector('.contrasenia');
 
-//let invalidemail= document.querySelector('.email')
 
 formulario.addEventListener('submit', function(event) {
-    event.preventDeFault();
+    event.preventDefault();
+    let todotrue=true;
 
-    if (email.value ==''){
+    if (mail.value ===''){
         alert('Por favor complete el campo email');
-        let todotrue=true
+        todotrue=false;
     }
-    if (contrasenia.value ==''){
-        
-       alert('Por favor complete el campo de contrasenia');
-        
-        todotrue=false
+    if (contrasenia.value ===''){
+        alert('Por favor complete el campo de contrasenia');
+        todotrue=false;
     }
-    else if (contrasenia.value.lenght>6){;
-    alert('La contraseña debe tener al menos 6 caracteres');
-    todotrue=false
+    else if (contrasenia.value.length<6){;
+        alert('La contraseña debe tener al menos 6 caracteres');
+        todotrue=false;
     }
-    else
-        localStorage.setItem('email', email.value);
-        localStorage.setItem('contrasenia', email.value);
-        console.log(localStorage);
-        this.submit();
-}
+    if(todotrue){
+        localStorage.setItem('email', mail.value);
+        localStorage.setItem('contrasenia', contrasenia.value);
+        location.href='index.html';
 
-)
+    }
+
+});
