@@ -19,7 +19,7 @@
             <nav>
                 <ul class="lista">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="category.html?id=electronic">Electronica</a></li>
+                    <li><a href="category.html?id=electronics">Electronica</a></li>
                     <li><a href="category.html?id=jewelery">Accesorios</a></li>
                     <li><a href="category.html?id=men's%20clothing">Ropa Hombre</a></li>
                     <li><a href="category.html?id=women's%20clothing">Ropa Mujer</a></li>
@@ -41,11 +41,14 @@
             <div>
                 <label>direccion de correo electronico:</label>
                 <input type="email" name="emailUsuario" placeholder="ej.prograti@gmail.com" required class="email">
+                <p class="emailError"></p>
             </div>
             <label>contraseña:</label>
-            <input type="password" name="passwordUsuario" required><br>
+            <input type="password" name="passwordUsuario" required  class="contrasenia"><br>
+            <p class="contraError"></p>
             <label>repetir contraseña:</label>
-            <input type="password" name="passwordUsuario" required><br>
+            <input type="password" name="passwordUsuario" required  class="repetirContra"><br>
+            <p class="repetirContraError"></p>
 
             <input type="checkbox" name="terminosycondiciones">
             <label for="checkbox">terminos y condiciones</label>
