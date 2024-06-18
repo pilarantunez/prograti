@@ -33,27 +33,24 @@
 
         </header>
     </div>
-    <main class="pass-main">
-        <h1>Recuperar Contraseña</h1>
-        <br>
+    <main>
+        
+        <div class="container-form">
+            <div class="form">
+                <h2>Recuperar Contraseña</h2>
+                <form class="recovery">
+                    <input type="email" id="email" placeholder="Email"><br>
+                    <input type="checkbox" id="aceptar"> Quiero recuperar mi contraseña<br>
+                    <button type="submit">Recuperar</button>
+                </form>
+                <div id="message" class="mensaje"></div>
+                <div id="success" class="success" style="display: none;">
+                    Recibirás un email con las instrucciones para recuperar tu contraseña<br>
+                    <a href="/login">Ir al login</a>
+                </div>
+            </div>
+        </div>
 
-        <section class="pass">
-            <form action="" class="form-pass">
-                <div class="email-pass">
-                    <label for="email">Email:</label>
-                    <input class="email" type="email" value="" placeholder="Ingrese su Email">
-                </div>
-                <div class="check-pass">
-                    <br>
-                    <input type="checkbox" name="contraseña" value="">
-                    <label for="checkbox"> Quiero recuperar mi contraseña</label>
-                </div>
-                <div class="email-recuperar">
-                    <br>
-                    <button class="ingresar">Recuperar</button>
-                </div>
-            </form>
-        </section>
     </main>
 
 
