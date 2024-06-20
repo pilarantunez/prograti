@@ -22,7 +22,7 @@ if (cartData === null){
     
     
     for(let i=0; i<carrito.length; i++){
-        carrito = itemsHtml
+        
         let id = carrito[i]
         let url = `https://fakestoreapi.com/products/${id}`
         fetch(url)
