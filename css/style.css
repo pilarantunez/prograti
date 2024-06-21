@@ -101,6 +101,20 @@ h3{
 
 }
 
+.home-sections-mujer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.home-sections-hombre{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
 #jewelery{
     display: flex;
     flex-direction: row;
