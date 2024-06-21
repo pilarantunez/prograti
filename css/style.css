@@ -397,61 +397,7 @@ h3.buzo-bakery{
 
 
 /*/ RESPONSIVE*/
-/*/
 
-@media(max-width:420px){
-    .header {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media(max-width:420px){
-    .footer {
-        flex-direction: column;
-    }
-}
-
-@media(max-width:420px){
-    .lista {
-        flex-direction: column;
-        text-align: center;
-
-    }
-}
-
-@media(max-width:420px){
-    .footnom {
-        flex-direction: column;
-        height: 250px;
-    }
-}
-
-@media(max-width:420px){
-    .home-sections, .articulos-padre, .producto {
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-    }
-}
-
-
-@media(max-width:420px){
-    .category-mujer {
-        flex-direction: column;
-        align-items: center;
-        display: flex;
-    }
-}
-@media(max-width:420px){
-    .category-mujer, .producto {
-        width: 90%;
-        margin-bottom: 20%;
-        align-items: center;
-        
-    }
-}
-/*/
 @media(max-width:720px){
     .register, .header, .category, .category-mujer, .home-sections, .articulos-padre, .producto, .footer, .footnom, .header, .lista, .button, .login, .button-ver, .lista {
         flex-direction: column;
