@@ -1,24 +1,33 @@
-let formulario = document.querySelector(".recovery")
-let email = document.querySelector(".email")
-let aceptar = document.querySelector(".aceptar")
-let mensaje = document.querySelector(".mensaje")
-let success = document.querySelector(".success")
+document.addEventListener("DOMContentLoaded", function() {
+    let formulario = document.querySelector(".recovery");
+    let emailField = document.querySelector("#email");
+    let aceptarField = document.querySelector("#aceptar");
+    let mensaje = document.querySelector(".mensaje");
+    let success = document.querySelector(".success");
+    let login = document.querySelector(".login-link");
 
-formulario.addEventListener('submit',function(event){
-    event.preventDefault()
+    formulario.addEventListener("submit", function(event) {
+        event.preventDefault();
 
-    mensaje.textContent = ''
-    success.style.display = 'none';
+        let email = emailField.value;
+        let aceptar = aceptarField.checked;
+        let respuesta = true;
+        mensaje.textContent = '';
+        let formEnviado = '';
 
+        if (email === '') {
+            mensaje.textContent = 'Por favor escriba su email';
+            respuesta = false;
+        } else if (!aceptar) {
+            mensaje.textContent = 'Por favor acepte el campo Quiero recuperar mi contraseña';
+            respuesta = false;
+        }
 
-    if(email === 0){
-        mensaje.textContent = 'Por favor escriba su email'
-    } else if(!aceptar){
-        mensaje.textContent = 'Por favor acepte el campo Quiero recuperar mi contraseña'
-    }else{
-        mensaje.textContent = ''
-        success.style.display = 'block'
-    }
-
-
-})
+        if (respuesta) {
+            mensaje.textContent = '';
+            formEnviado = "Recibirás un email con las instrucciones para recuperar tu contraseña";
+            success.textContent = formEnviado;
+            login.innerHTML = '<a href="login.html">Ir al login</a>';
+        }
+    });
+});
