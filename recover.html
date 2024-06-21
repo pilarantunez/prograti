@@ -38,16 +38,16 @@
         <div class="container-form">
             <div class="form">
                 <h2>Recuperar Contraseña</h2>
-                <form class="recovery">
-                    <input type="email" id="email" placeholder="Email"><br>
-                    <input type="checkbox" id="aceptar"> Quiero recuperar mi contraseña<br>
+                <form action="" method="get" class="recovery">
+                    <input type="email" id="email" name="email" placeholder="Email"><br>
+                    <input type="checkbox" id="aceptar" name="aceptar"> Quiero recuperar mi contraseña<br>
                     <button type="submit">Recuperar</button>
+                    
                 </form>
-                <div id="message" class="mensaje"></div>
-                <div id="success" class="success" style="display: none;">
-                    Recibirás un email con las instrucciones para recuperar tu contraseña<br>
-                    <a href="/login">Ir al login</a>
-                </div>
+                <div class="mensaje"></div>
+                <div class="success"></div>
+                <div class="login-link"></div>
+                
             </div>
         </div>
 

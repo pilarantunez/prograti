@@ -61,7 +61,11 @@ if (cartData === null){
 
 
 carritoComprar = document.querySelector(".carritoComprar")
-//carritoComprar.addEventListener('click',)
+carritoComprar.addEventListener('click',function(){
+    alert("Gracias por su compra, tu compra se ha realizado correctamente")
+    localStorage.clear()
+    window.location.href = 'index.html'
+})
 
 
 console.log(cartData)
