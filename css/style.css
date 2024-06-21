@@ -114,14 +114,14 @@ h3{
     justify-content: flex-start;
     flex-wrap: wrap;
 }
-
-#jewelery{
+.home-sections-jewelery{
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    
-  
 }
+
+
 /*/Categorias/*/
 .category{
     margin: 16px;
