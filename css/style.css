@@ -143,16 +143,19 @@ h3{
     
 }
 
-p.buzo-bakery{
+.producto-nombre{
+    background-color: rgb(131, 129, 129);
+}
+.producto-descripcion{
     background-color: rgb(131, 129, 129);
 }
 
-h3.buzo-bakery{
+.producto-precio{
     background-color: rgb(131, 129, 129);;
 }
 
 
-.buzo-bakery{
+.producto-nombre{
     text-transform: capitalize;
     margin: 10px;
 }
