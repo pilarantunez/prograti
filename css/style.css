@@ -50,6 +50,27 @@ h3{
     font-size: 30px;
 }
 
+#bienvenida{
+    padding: 16px 65px;
+    background-color: rgb(129, 174, 219);
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;   
+    font-size: 30px;
+}
+
+/*/
+.logout-btn {
+    margin-left: 10px; 
+    background-color: #f44336; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+}
+/*/
 
 /*/Main/*/
 
