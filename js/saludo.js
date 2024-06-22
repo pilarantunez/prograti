@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function(){
         let registroItem = document.getElementById('registro');
 
         // construir el contenido HTML del mensaje de bienvenida y enlace de logout
-        bienvenidaSpan.innerHTML = `Bienvenido/a: ${email}<br><a href="#" id="logoutLink">Logout</a>`;
+        bienvenidaSpan.innerHTML = `Bienvenido/a: ${email}<br><a href="#" id="logoutLink" class="lista">Logout</a>`;
 
         // agregar evento al enlace de logout
         let logoutLink = document.getElementById('logoutLink');
