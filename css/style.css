@@ -133,25 +133,14 @@ h3{
 
 }
 
-.home-sections-mujer{
+.home-sections-mujer, .home-sections-hombre, .home-sections-jewelery {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
+
 }
 
-.home-sections-hombre{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-.home-sections-jewelery{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
 
 
 /*/Categorias/*/

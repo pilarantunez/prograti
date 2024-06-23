@@ -28,11 +28,11 @@ fetch(url)
         categoriaProducto.innerHTML = `<a href="./category.html?id=${data.category}"> ver mas en su categoria: ${data.category}</a>`;
 
         agregarCarritoBtn.addEventListener('click', function() {
-            localStorage.setItem('productoId', data.id);
+            localStorage.getItem('productoId', data.id);
             alert('Producto agregado al carrito!');
         });
     })
 
     .catch(function (error) {
-    console.log("El error es: " + error);
+        console.log("El error es: " + error);
     });
