@@ -295,18 +295,32 @@ h3{
 
 /*/CART/*/
 
+.carrito {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+    
 .carrito-total {
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
 }
 
-#carritoComprar {
-    background-color: rgb(210, 138, 3);
-    font-size: large;
-    padding: 10px 20px;
+#carrito-button {
+    background-color: rgb(210, 151, 3);
+    font-size: medium;
+    padding: 10px 10px;
     border: none;
     cursor: pointer;
+    margin: 20px;
 }
 
 

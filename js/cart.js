@@ -14,14 +14,14 @@ if (cartData === null){
     mensaje = 'su carrito esta vacio'
     cart.innerHTML = mensaje
 } else{
-   
-    carrito = [] ;
+   // Si el carrito no está vacío, procesa los datos
+    let carrito = [] ;
     carrito = JSON.parse(cartData) 
     let total = 0
     
     
-    
-    for(let i=0; i<carrito.length; i++){
+     // Recorre cada item en el carrito y obtiene sus datos de la API
+     for(let i=0; i<carrito.length; i++){
         
         let id = carrito[i]
         let url = `https://fakestoreapi.com/products/${id}`
