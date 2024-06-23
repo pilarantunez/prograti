@@ -1,13 +1,14 @@
+//defino donde quiero que se almacenen los datos
+let cartData = localStorage.getItem('carritoItems')
+
 // defino las variables a usar con el dom captado
 let cart = document.querySelector('.carrito')
-let carritoTotal = document.querySelector('carrito-total')
-
-//defino donde quiero que se almacenen los datos
-
-let cartData = localStorage.getItem("carritoItems")
+let carritoTotal = document.querySelector('.carrito-total')
 
 // el condicional lo que hace es preguntar si esta vacio y si esta, deveulve que le carrito esta vacio, y si no esta vacio
 //recorre un for que crea adentro un carrito con un array vacio para que despues se complete con la informacion de la api
+
+let itemsHtml = ''
 
 if (cartData === null){
     mensaje = 'su carrito esta vacio'
@@ -16,7 +17,6 @@ if (cartData === null){
    
     carrito = [] ;
     carrito = JSON.parse(cartData) 
-    let itemsHtml = ''
     let total = 0
     
     
@@ -39,16 +39,12 @@ if (cartData === null){
                         <h3>Precio: ${data.price}</h3>
                         
                     </article>`
-                        
-           
             
             total += data.price
+            carritoTotal.innerHTML = total
             cart.innerHTML = itemsHtml
-            carritoTotal += `Total: ${total}
-                            <button id="carritoComprar">Finalizar Compra</button>
-                            `
-
-            
+           
+        
         })
         .catch(function(error){
             console.log('el error es: ', error)
@@ -56,11 +52,11 @@ if (cartData === null){
         })
 
        }
-        
     } 
 
 
-carritoComprar = document.querySelector(".carritoComprar")
+let carritoComprar = document.querySelector('#carrito-button')
+
 carritoComprar.addEventListener('click',function(){
     alert("Gracias por su compra, tu compra se ha realizado correctamente")
     localStorage.clear()
