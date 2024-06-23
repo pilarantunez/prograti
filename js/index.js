@@ -20,8 +20,8 @@ fetch(urlJoyas)
                         <h3> Nombre:${info[index].title}</h3>
                         <img src=${info[index].image} alt=${info[index].id}>
                         <p>Descripcion: ${info[index].description}</p>
-                        <h3>Precio:  USD${info[index].price}</h3>
-                        <a href="./producto.html?id=${info[index]}" class="button-ver"> Ver mas</a>
+                        <h3>Precio:  USD ${info[index].price}</h3>
+                        <a href="./producto.html?id=${info[index].id}" class="button-ver"> Ver mas</a>
                     </article>`
     
     }
@@ -50,8 +50,8 @@ fetch(urlMujer)
                             <h3>Nombre: ${info[index].title}</h3>
                             <img src="${info[index].image}" alt="${info[index].id}">
                             <p>Descripción: ${info[index].description}</p>
-                            <h3>Precio: ${info[index].price}</h3>
-                            <a href="./producto.html?id=${info[index]}" class="button-ver">Ver más</a>
+                            <h3>Precio: USD ${info[index].price}</h3>
+                            <a href="./producto.html?id=${info[index].id}" class="button-ver">Ver más</a>
                           </article>`;
         }
         
@@ -82,8 +82,8 @@ fetch(urlHombres)
                         <h3> Nombre:${info[index].title}</h3>
                         <img src=${info[index].image} alt=${info[index].id}>
                         <p>Descripcion: ${info[index].description}</p>
-                        <h3>Precio:  USD${info[index].price}</h3>
-                        <a href="./producto.html?id=${info[index]}" class="button-ver"> Ver mas</a>
+                        <h3>Precio:  USD ${info[index].price}</h3>
+                        <a href="./producto.html?id=${info[index].id}" class="button-ver"> Ver mas</a>
                     </article>`
     
     }

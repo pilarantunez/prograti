@@ -209,6 +209,12 @@ h3{
     margin-top: 40px;
 }
 
+.producto-categoria{
+    background-color: rgb(131, 129, 129);
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
 
 .titulo-producto{
     justify-content: center;

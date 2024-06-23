@@ -17,19 +17,22 @@ fetch(url)
         let imagenProducto = document.querySelector('.producto-imagen');
         let descripcionProducto = document.querySelector('.producto-descripcion');
         let precioProducto = document.querySelector('.producto-precio');
-        let agregarCarrito = document.querySelector('.add-cart');
+        let categoriaProducto = document.querySelector('.producto-categoria');
+        let agregarCarritoBtn = document.querySelector('.button');
 
         // Actualizar los elementos del DOM con los datos del producto
-        nombreProducto.innerText = "nombre:" + data.title;
+        nombreProducto.innerText = data.title;
         imagenProducto.src = data.image;
-        descripcionProducto.innerText = "descripcion:" + data.description;
-        precioProducto.innerText = "precio:" + data.price;
-        agregarCarrito.href = "cart.html?id=" + data.id;
-        
+        descripcionProducto.innerText = data.description;
+        precioProducto.innerText = "precio: USD" + ' ' + data.price;
+        categoriaProducto.innerHTML = `<a href="./category.html?id=${data.category}"> ver mas en su categoria: ${data.category}</a>`;
+
+        agregarCarritoBtn.addEventListener('click', function() {
+            localStorage.setItem('productoId', data.id);
+            alert('Producto agregado al carrito!');
+        });
     })
 
     .catch(function (error) {
     console.log("El error es: " + error);
-    })
-
-
+    });
