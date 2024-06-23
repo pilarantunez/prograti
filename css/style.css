@@ -29,7 +29,11 @@ h3{
     color: black;
     display: flex;
     list-style: none;
-    gap: 40px;  
+    gap: 40px;
+}
+
+.lista li{
+    margin-right: 10px;
 }
 
 /*/ HEADER /*/
@@ -49,7 +53,34 @@ h3{
     height: fit-content;   
     font-size: 30px;
 }
+/*/
+#bienvenida{
+    padding: 16px 65px;
+    background-color: rgb(129, 174, 219);
+    position: static;
+    display: flex;
+    height: fit-content;   
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+
+.bienvenida-container{
+    flex: 1;
+}
+
+
+.logout-btn {
+    margin-left: 10px; 
+    background-color: #f44336; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+}
+/*/
 
 /*/Main/*/
 
@@ -101,15 +132,29 @@ h3{
 
 }
 
-#jewelery{
+.home-sections-mujer{
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    
-  
 }
+
+.home-sections-hombre{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.home-sections-jewelery{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
 /*/Categorias/*/
-.category{
+.category, .category-title, #bienvenida{
     margin: 16px;
     display: flex;
     justify-content: center;
@@ -129,16 +174,19 @@ h3{
     
 }
 
-p.buzo-bakery{
+.producto-nombre{
+    background-color: rgb(131, 129, 129);
+}
+.producto-descripcion{
     background-color: rgb(131, 129, 129);
 }
 
-h3.buzo-bakery{
+.producto-precio{
     background-color: rgb(131, 129, 129);;
 }
 
 
-.buzo-bakery{
+.producto-nombre{
     text-transform: capitalize;
     margin: 10px;
 }
@@ -335,68 +383,62 @@ h3.buzo-bakery{
 
 
 /*/ RESPONSIVE*/
-/*/
-
-@media(max-width:420px){
+@media(max-width: 900px) {
     .header {
         flex-direction: column;
         align-items: center;
     }
-}
 
-@media(max-width:420px){
-    .footer {
-        flex-direction: column;
-    }
-}
-
-@media(max-width:420px){
     .lista {
         flex-direction: column;
-        text-align: center;
-
+        align-items: center;
+        gap: 10px;
     }
-}
 
-@media(max-width:420px){
-    .footnom {
-        flex-direction: column;
-        height: 250px;
+    .articulos-padre {
+        margin: 10px;
     }
-}
 
-@media(max-width:420px){
-    .home-sections, .articulos-padre, .producto {
-        flex-direction: column;
-        justify-content: center;
+    .producto {
         width: 100%;
     }
-}
 
-
-@media(max-width:420px){
-    .category-mujer {
+    .footer {
         flex-direction: column;
-        align-items: center;
-        display: flex;
+        text-align: center;
+    }
+
+    .footer ul {
+        justify-content: center;
     }
 }
-@media(max-width:420px){
-    .category-mujer, .producto {
-        width: 90%;
-        margin-bottom: 20%;
-        align-items: center;
-        
-    }
-}
-/*/
-@media(max-width:720px){
-    .register, .header, .category, .category-mujer, .home-sections, .articulos-padre, .producto, .footer, .footnom, .header, .lista, .button, .login, .button-ver, .lista {
+/*/Responsive
+
+@media(max-width:900px){
+
+    .register, .category, .category-mujer, .home-sections, .articulos-padre, .producto, .footer, .footnom, .lista, .button, .login, .button-ver {
         flex-direction: column;
         justify-content: center;
         margin: 10px;
         width: 95%;
         text-align: center;
+    }
+    .header{
+        align-items: flex-start;
+        flex-direction: column;
+        height: 20%;
+        width: 20%;
+        margin:15px;
+        flex-wrap: wrap;
+        
+    }
+    .lista {
+        margin: 10px 0;
+        flex-direction: column;
+    }
+    .logo{
+        flex-wrap: wrap;
+
     }
 }
 
