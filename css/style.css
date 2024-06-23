@@ -43,6 +43,7 @@ h3{
     background-color: hsl(196, 20%, 45%);
     
 }
+/*/
 .header{
     padding: 16px 65px;
     background-color: rgb(153, 157, 161);
@@ -53,7 +54,7 @@ h3{
     height: fit-content;   
     font-size: 30px;
 }
-/*/
+ 
 #bienvenida{
     padding: 16px 65px;
     background-color: rgb(129, 174, 219);
@@ -154,7 +155,7 @@ h3{
 
 
 /*/Categorias/*/
-.category, .category-title, #bienvenida{
+.category, .category-title, #bienvenida, .header{
     margin: 16px;
     display: flex;
     justify-content: center;
@@ -209,12 +210,6 @@ h3{
     margin-top: 40px;
 }
 
-.producto-categoria{
-    background-color: rgb(131, 129, 129);
-    text-decoration: underline;
-    color: blue;
-    cursor: pointer;
-}
 
 .titulo-producto{
     justify-content: center;
