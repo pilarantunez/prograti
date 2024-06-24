@@ -239,6 +239,19 @@ h3{
     line-height: 140%;
 }
 
+
+.producto-categoria{
+    margin: 20px;
+    background-color: rgb(131, 129, 129);
+    text-decoration: underline;
+    color: blue;
+}
+
+.producto-nombre, .producto-descripcion, .producto-imagen, .producto-precio{
+    margin: 20px;
+}
+
+
 /*/LOG IN /*/
 
 .login{
