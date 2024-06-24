@@ -96,7 +96,7 @@ h3{
     flex-direction: row;
     justify-content: space-between;
     margin: 30px;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;  
 
 }
 
@@ -247,8 +247,14 @@ h3{
     color: blue;
 }
 
-.producto-nombre, .producto-descripcion, .producto-imagen, .producto-precio{
+.producto-nombre, .producto-descripcion, .producto-precio{
     margin: 20px;
+}
+
+.producto-imagen{
+    margin: 20px;
+    height: auto;
+    width: 350px;
 }
 
 
