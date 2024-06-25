@@ -29,7 +29,9 @@ fetch(url)
         categoriaProducto.innerHTML = `<a href="./category.html?id=${data.category}"> ver mas en su categoria: ${data.category}</a>`;
 
         agregarCarritoBtn.addEventListener('click', function() {
-            localStorage.setItem('productoId', data.id);
+            let carrito = JSON.parse(localStorage.getItem('carritoItems')) || [];
+            carrito.push(data.id);
+            localStorage.setItem('carritoItems', JSON.stringify(carrito));
             alert('Producto agregado al carrito!');
         });
     })
